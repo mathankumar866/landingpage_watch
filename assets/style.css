@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.lineone{
+    position: absolute;
+    width: 30px;
+    left: 70%;
+    height: 100vh;
+    top: 0%;
+    background-color: red;
+}
+.linetwo{
+    position: absolute;
+    width: 30px;
+    left: 75%;
+    height: 100vh;
+    top: 0%;
+    background-color:  rgb(24, 61, 121);
+}
+.linethree{
+    position: absolute;
+    width: 30px;
+    left: 80%;
+    height: 100vh;
+    top: 0%;
+    background-color: #ed9d12;
+}
+
+.image{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.contact{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.contact ion-icon{
+    margin-right: 20px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+span {
+    color: red;
+}
+.social{
+    display: grid;
+    font-size: 25px;
+    position: absolute;
+    right: 3%;
+    top: 47%;
+}
+
+.social ion-icon{
+    margin-bottom: 15px;
+}
+
+.year{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 3%;
+    bottom: 8%;
+}
+
+
+.tittleone{
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.lines{
+    width: 40%;
+    height: 3px;
+    background-color: grey;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+.para{
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 20%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    z-index: 5;
+}
+
+.price span{
+    color: black;
+    text-decoration: line-through;
+}
+
+.imagelist img{
+    display: grid;
+    width: 100px;
+    height: 100px;
+}
+
+.imagelist{
+    position: absolute;
+    top: 30%;
+}
+.flex{
+    display: flex;
+}
+
